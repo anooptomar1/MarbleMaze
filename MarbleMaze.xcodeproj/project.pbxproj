@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		374C347B1CF61086006F300F /* CoreMotionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374C34761CF61086006F300F /* CoreMotionHelper.swift */; };
+		374C347C1CF61086006F300F /* GameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374C34771CF61086006F300F /* GameHelper.swift */; };
+		374C347D1CF61086006F300F /* GameUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374C34781CF61086006F300F /* GameUtils.swift */; };
+		374C347E1CF61086006F300F /* SCNAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374C34791CF61086006F300F /* SCNAction+Extensions.swift */; };
+		374C347F1CF61086006F300F /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374C347A1CF61086006F300F /* SCNVector3+Extensions.swift */; };
+		3796B4F21D01E90F00A99A97 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3796B4F11D01E90F00A99A97 /* art.scnassets */; };
+		37E286781CF4D6A500EA61B0 /* Bump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 37E286741CF4D6A500EA61B0 /* Bump.wav */; };
+		37E286791CF4D6A500EA61B0 /* GameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = 37E286751CF4D6A500EA61B0 /* GameOver.wav */; };
+		37E2867A1CF4D6A500EA61B0 /* Powerup.wav in Resources */ = {isa = PBXBuildFile; fileRef = 37E286761CF4D6A500EA61B0 /* Powerup.wav */; };
+		37E2867B1CF4D6A500EA61B0 /* Reset.wav in Resources */ = {isa = PBXBuildFile; fileRef = 37E286771CF4D6A500EA61B0 /* Reset.wav */; };
 		37E2E6FE1CD5332900E6ED46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E2E6FD1CD5332900E6ED46 /* AppDelegate.swift */; };
-		37E2E7001CD5332900E6ED46 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E2E6FF1CD5332900E6ED46 /* art.scnassets */; };
 		37E2E7021CD5332900E6ED46 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E2E7011CD5332900E6ED46 /* GameViewController.swift */; };
 		37E2E7051CD5332900E6ED46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E2E7031CD5332900E6ED46 /* Main.storyboard */; };
 		37E2E7071CD5332900E6ED46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E2E7061CD5332900E6ED46 /* Assets.xcassets */; };
@@ -16,9 +25,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		374C34761CF61086006F300F /* CoreMotionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreMotionHelper.swift; sourceTree = "<group>"; };
+		374C34771CF61086006F300F /* GameHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameHelper.swift; sourceTree = "<group>"; };
+		374C34781CF61086006F300F /* GameUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameUtils.swift; sourceTree = "<group>"; };
+		374C34791CF61086006F300F /* SCNAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNAction+Extensions.swift"; sourceTree = "<group>"; };
+		374C347A1CF61086006F300F /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		3796B4F11D01E90F00A99A97 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		37E286741CF4D6A500EA61B0 /* Bump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bump.wav; sourceTree = "<group>"; };
+		37E286751CF4D6A500EA61B0 /* GameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameOver.wav; sourceTree = "<group>"; };
+		37E286761CF4D6A500EA61B0 /* Powerup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Powerup.wav; sourceTree = "<group>"; };
+		37E286771CF4D6A500EA61B0 /* Reset.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Reset.wav; sourceTree = "<group>"; };
 		37E2E6FA1CD5332900E6ED46 /* MarbleMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarbleMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E2E6FD1CD5332900E6ED46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		37E2E6FF1CD5332900E6ED46 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		37E2E7011CD5332900E6ED46 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		37E2E7041CD5332900E6ED46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37E2E7061CD5332900E6ED46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +55,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		374C34751CF61086006F300F /* GameUtils */ = {
+			isa = PBXGroup;
+			children = (
+				374C34761CF61086006F300F /* CoreMotionHelper.swift */,
+				374C34771CF61086006F300F /* GameHelper.swift */,
+				374C34781CF61086006F300F /* GameUtils.swift */,
+				374C34791CF61086006F300F /* SCNAction+Extensions.swift */,
+				374C347A1CF61086006F300F /* SCNVector3+Extensions.swift */,
+			);
+			name = GameUtils;
+			path = ../Sounds/GameUtils;
+			sourceTree = "<group>";
+		};
+		37E286731CF4D6A500EA61B0 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				37E286741CF4D6A500EA61B0 /* Bump.wav */,
+				37E286751CF4D6A500EA61B0 /* GameOver.wav */,
+				37E286761CF4D6A500EA61B0 /* Powerup.wav */,
+				37E286771CF4D6A500EA61B0 /* Reset.wav */,
+			);
+			name = Sounds;
+			path = ../Sounds;
+			sourceTree = "<group>";
+		};
 		37E2E6F11CD5332900E6ED46 = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +99,10 @@
 		37E2E6FC1CD5332900E6ED46 /* MarbleMaze */ = {
 			isa = PBXGroup;
 			children = (
+				3796B4F11D01E90F00A99A97 /* art.scnassets */,
+				374C34751CF61086006F300F /* GameUtils */,
+				37E286731CF4D6A500EA61B0 /* Sounds */,
 				37E2E6FD1CD5332900E6ED46 /* AppDelegate.swift */,
-				37E2E6FF1CD5332900E6ED46 /* art.scnassets */,
 				37E2E7011CD5332900E6ED46 /* GameViewController.swift */,
 				37E2E7031CD5332900E6ED46 /* Main.storyboard */,
 				37E2E7061CD5332900E6ED46 /* Assets.xcassets */,
@@ -125,8 +170,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37E2E7001CD5332900E6ED46 /* art.scnassets in Resources */,
+				37E2867B1CF4D6A500EA61B0 /* Reset.wav in Resources */,
+				3796B4F21D01E90F00A99A97 /* art.scnassets in Resources */,
 				37E2E70A1CD5332900E6ED46 /* LaunchScreen.storyboard in Resources */,
+				37E286781CF4D6A500EA61B0 /* Bump.wav in Resources */,
+				37E2867A1CF4D6A500EA61B0 /* Powerup.wav in Resources */,
+				37E286791CF4D6A500EA61B0 /* GameOver.wav in Resources */,
 				37E2E7071CD5332900E6ED46 /* Assets.xcassets in Resources */,
 				37E2E7051CD5332900E6ED46 /* Main.storyboard in Resources */,
 			);
@@ -139,8 +188,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				374C347B1CF61086006F300F /* CoreMotionHelper.swift in Sources */,
+				374C347C1CF61086006F300F /* GameHelper.swift in Sources */,
+				374C347E1CF61086006F300F /* SCNAction+Extensions.swift in Sources */,
+				374C347D1CF61086006F300F /* GameUtils.swift in Sources */,
 				37E2E7021CD5332900E6ED46 /* GameViewController.swift in Sources */,
 				37E2E6FE1CD5332900E6ED46 /* AppDelegate.swift in Sources */,
+				374C347F1CF61086006F300F /* SCNVector3+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +346,7 @@
 				37E2E7101CD5332900E6ED46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
